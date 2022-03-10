@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Application | My project </title>
+  <style>
+    body * {
+     font-style: oblique;
+      line-height: 2 ;
+    }
+  </style>
+</head>
+<body style="background-color: rgb(226, 217, 188)">
+  
+  <ul class="links">
+    
+    <li>
+      <a href="#mytable"> MY Table</a>
+    </li>
+    <li>
+      <a href="#mymap">Pictures</a>
+    </li>
+  </ul>
+  <br><br>
+  <section id="mytable">
+    <h1> My Table</h1>
+    <table width="100%" border="5">
+      <colgroup>
+        <col bgcolor="#506080">
+      </colgroup>
+      <tr bgcolor="#506080">
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <th>1:00 PM</th>
+        <td rowspan="2" bgcolor="#557890">
+          MATH
+        </td>
+        <td></td>
+        <td rowspan="2" bgcolor="#557890">MATH</td>
+        <td rowspan="8" bgcolor="#705820">Web Application</td>
+        <td rowspan="2" bgcolor="#304090">PROGRAMMING</td>
+      </tr>
+      <tr>
+        <th>3:00 PM</th>
+        <td rowspan="2" bgcolor="#aaa">DeptMeeting</td>
+      </tr>
+      <tr>
+        <th>2:00 PM</th>
+        <td rowspan="3" bgcolor="orange">CIRCUITS</td>
+        <td rowspan="3" bgcolor="#304090">PROGRAMMING</td>
+        <td rowspan="3" bgcolor="#503040">ELECTRONICS</td>
+      </tr>
+      <tr>
+        <th>3:00 PM</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>5:00 PM</th>
+        <td rowspan="3" bgcolor="#aaa">EC Meeting</td>
+      </tr>
+      <tr>
+        <th>3:30 PM</th>
+        <td rowspan="3" bgcolor="#304090">PROGRAMMING</td>
+        <td rowspan="3" bgcolor="#503040">ELECTRONICS</td>
+        <td rowspan="3" bgcolor="orange">CIRCUITS</td>
+      </tr>
+      <tr>
+        <th>3:30 PM</th>
+      </tr>
+      <tr>
+        <th>4:00PM</th>
+        <td></td>
+      </tr>
+    </table>
+  </section>
+  <br><br>
+  <section id="mymap">
+    <h1>Picture map</h1>
+    <p>Click the color you need and you will see an image for the color you clicked</p>
+    <img src="images/collection.png" alt="collection image" usemap="#colors">
+    <map name="colors">
+      <area shape="react" coords="0, 0, 300, 300" href="images/red.png" alt="red color image">
+      <area shape="react" coords="300, 0, 600, 300" href="images/yellow.png" alt="yellow color image">
+      <area shape="react" coords="0, 300, 300, 600" href="images/green.png" alt="green color image">
+      <area shape="react" coords="300, 300, 600, 600" href="images/blue.png" alt="blue color image">
+    </map>
+  </section>
+
+</body>
+</html>
